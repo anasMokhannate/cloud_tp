@@ -13,6 +13,8 @@ public class HomeController {
     @GetMapping("/")
     public String indexPage(Model model){
         model.addAttribute("Title","SpringBoot x TailwindCSS");
+        int i = 12;
+        i++;
         return "home";
     }
 }
